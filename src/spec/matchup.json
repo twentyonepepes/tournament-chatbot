@@ -1,0 +1,11 @@
+{
+	"_id": "M-SPEC-TOURNAMENT-2-MANDY-2-TORLES-2",
+	"left": "MANDY-2",
+	"right": "TORLES-2",
+	"matchupNumber": 2,
+	"winner": null,
+	"teamIndex": {
+		"MANDY-2": "MANDY",
+		"TORLES-2": "TORLES"
+	}
+}

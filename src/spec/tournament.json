@@ -1,0 +1,1784 @@
+{
+	"_id": "SPEC-TOURNAMENT",
+	"currentRound": 3,
+	"currentSet": 1,
+	"matchupsCompleted": 35,
+	"winner": null,
+	"teams": [
+	  "MANDY",
+	  "TORLES",
+	  "PAREPARE",
+	  "KAWREA",
+	  "TITUS",
+	  "HARTVILLE",
+	  "RENO",
+	  "PAPAS",
+	  "CHAMPION"
+	],
+	"teamColorIndex": {
+	  "MANDY": "RED",
+	  "TORLES": "BLUE",
+	  "PAREPARE": "GREEN",
+	  "KAWREA": "ORANGE",
+	  "TITUS": "WHITE",
+	  "HARTVILLE": "BLACK",
+	  "PAPAS": "PINK",
+	  "RENO": "BROWN",
+	  "CHAMPION": "GOLD"
+	},
+	"teamNumberIndex": {
+	  "MANDY": 1,
+	  "TORLES": 2,
+	  "PAREPARE": 3,
+	  "KAWREA": 4,
+	  "TITUS": 5,
+	  "HARTVILLE": 6,
+	  "PAPAS": 7,
+	  "RENO": 8,
+	  "CHAMPION": 9
+	},
+	"teamsRoundFightPending": [],
+	"teamIsEliminated": {
+	  "MANDY": true,
+	  "TORLES": true,
+	  "PAREPARE": true,
+	  "KAWREA": false,
+	  "TITUS": true,
+	  "HARTVILLE": true,
+	  "RENO": true,
+	  "PAPAS": true,
+	  "CHAMPION": false
+	},
+	"roundsPlayed": {
+	  "MANDY": 1,
+	  "TORLES": 2,
+	  "PAREPARE": 1,
+	  "KAWREA": 3,
+	  "TITUS": 2,
+	  "HARTVILLE": 1,
+	  "RENO": 3,
+	  "PAPAS": 1,
+	  "CHAMPION": 0
+	},
+	"teamMonsterIndex": {
+	  "MANDY": [
+		"MANDY-1",
+		"MANDY-2",
+		"MANDY-3",
+		"MANDY-4",
+		"MANDY-5"
+	  ],
+	  "TORLES": [
+		"TORLES-1",
+		"TORLES-2",
+		"TORLES-3",
+		"TORLES-4",
+		"TORLES-5"
+	  ],
+	  "PAREPARE": [
+		"PAREPARE-1",
+		"PAREPARE-2",
+		"PAREPARE-3",
+		"PAREPARE-4",
+		"PAREPARE-5"
+	  ],
+	  "KAWREA": [
+		"KAWREA-1",
+		"KAWREA-2",
+		"KAWREA-3",
+		"KAWREA-4",
+		"KAWREA-5"
+	  ],
+	  "TITUS": [
+		"TITUS-1",
+		"TITUS-2",
+		"TITUS-3",
+		"TITUS-4",
+		"TITUS-5"
+	  ],
+	  "HARTVILLE": [
+		"HARTVILLE-1",
+		"HARTVILLE-2",
+		"HARTVILLE-3",
+		"HARTVILLE-4",
+		"HARTVILLE-5"
+	  ],
+	  "RENO": [
+		"RENO-1",
+		"RENO-2",
+		"RENO-3",
+		"RENO-4",
+		"RENO-5"
+	  ],
+	  "PAPAS": [
+		"PAPAS-1",
+		"PAPAS-2",
+		"PAPAS-3",
+		"PAPAS-4",
+		"PAPAS-5"
+	  ],
+	  "CHAMPION": [
+		"CHAMPION-1",
+		"CHAMPION-2",
+		"CHAMPION-3",
+		"CHAMPION-4",
+		"CHAMPION-5"
+	  ]
+	},
+	"monsterTeamIndex": {
+	  "MANDY-1": "MANDY",
+	  "TORLES-1": "TORLES",
+	  "PAREPARE-1": "PAREPARE",
+	  "KAWREA-1": "KAWREA",
+	  "TITUS-1": "TITUS",
+	  "HARTVILLE-1": "HARTVILLE",
+	  "RENO-1": "RENO",
+	  "PAPAS-1": "PAPAS",
+	  "CHAMPION-1": "CHAMPION",
+	  "MANDY-2": "MANDY",
+	  "TORLES-2": "TORLES",
+	  "PAREPARE-2": "PAREPARE",
+	  "KAWREA-2": "KAWREA",
+	  "TITUS-2": "TITUS",
+	  "HARTVILLE-2": "HARTVILLE",
+	  "RENO-2": "RENO",
+	  "PAPAS-2": "PAPAS",
+	  "CHAMPION-2": "CHAMPION",
+	  "MANDY-3": "MANDY",
+	  "TORLES-3": "TORLES",
+	  "PAREPARE-3": "PAREPARE",
+	  "KAWREA-3": "KAWREA",
+	  "TITUS-3": "TITUS",
+	  "HARTVILLE-3": "HARTVILLE",
+	  "RENO-3": "RENO",
+	  "PAPAS-3": "PAPAS",
+	  "CHAMPION-3": "CHAMPION",
+	  "MANDY-4": "MANDY",
+	  "TORLES-4": "TORLES",
+	  "PAREPARE-4": "PAREPARE",
+	  "KAWREA-4": "KAWREA",
+	  "TITUS-4": "TITUS",
+	  "HARTVILLE-4": "HARTVILLE",
+	  "RENO-4": "RENO",
+	  "PAPAS-4": "PAPAS",
+	  "CHAMPION-4": "CHAMPION",
+	  "MANDY-5": "MANDY",
+	  "TORLES-5": "TORLES",
+	  "PAREPARE-5": "PAREPARE",
+	  "KAWREA-5": "KAWREA",
+	  "TITUS-5": "TITUS",
+	  "HARTVILLE-5": "HARTVILLE",
+	  "RENO-5": "RENO",
+	  "PAPAS-5": "PAPAS",
+	  "CHAMPION-5": "CHAMPION"
+	},
+	"monsters": {
+	  "MANDY-1": {
+		"_id": "MANDY-1",
+		"MONSTER_NAME": "DARELLE",
+		"TRAINER_NAME": "PAREPARE",
+		"RACE": "CHARIOT",
+		"RACE_TYPE": "CENTAUR",
+		"RACE_SUBTYPE": "DURAHAN",
+		"LIF": 261,
+		"POW": 270,
+		"INT": 402,
+		"SKI": 255,
+		"SPD": 341,
+		"DEF": 243,
+		"LOYALTY": 48,
+		"NATURE": "NEUTRAL",
+		"MOD_GUTS_RATE": 3,
+		"TECHNIQUES": [
+		  "Smash",
+		  "Turn Stab",
+		  "RearLeg Kick",
+		  "Death Thrust",
+		  "Rush Slash",
+		  "Jump Javelin"
+		]
+	  },
+	  "TORLES-1": {
+		"_id": "TORLES-1",
+		"MONSTER_NAME": "JASMINA",
+		"TRAINER_NAME": "TORLES",
+		"RACE": "HOUNDSAURIAN",
+		"RACE_TYPE": "ZUUM",
+		"RACE_SUBTYPE": "TIGER",
+		"LIF": 295,
+		"POW": 393,
+		"INT": 424,
+		"SKI": 580,
+		"SPD": 350,
+		"DEF": 341,
+		"LOYALTY": 62,
+		"NATURE": "GOOD",
+		"MOD_GUTS_RATE": 2,
+		"TECHNIQUES": [
+		  "Claw",
+		  "MillionClaws",
+		  "Tail",
+		  "Jumping Claw",
+		  "Charge"
+		]
+	  },
+	  "PAREPARE-1": {
+		"_id": "PAREPARE-1",
+		"MONSTER_NAME": "DEVONNE",
+		"TRAINER_NAME": "MANDY",
+		"RACE": "NYANKORO",
+		"RACE_TYPE": "MOCCHI",
+		"RACE_SUBTYPE": "KATO",
+		"LIF": 451,
+		"POW": 238,
+		"INT": 460,
+		"SKI": 377,
+		"SPD": 367,
+		"DEF": 368,
+		"LOYALTY": 74,
+		"NATURE": "NEUTRAL",
+		"MOD_GUTS_RATE": 2,
+		"TECHNIQUES": [
+		  "Slap",
+		  "Head Butt",
+		  "Roll Attack",
+		  "Petal Swirl",
+		  "Mocchi Ray",
+		  "Petal Roll"
+		]
+	  },
+	  "KAWREA-1": {
+		"_id": "KAWREA-1",
+		"MONSTER_NAME": "LAMEE",
+		"TRAINER_NAME": "KAWREA",
+		"RACE": "STRIKER",
+		"RACE_TYPE": "NAGA",
+		"RACE_SUBTYPE": "TIGER",
+		"LIF": 264,
+		"POW": 288,
+		"INT": 289,
+		"SKI": 497,
+		"SPD": 292,
+		"DEF": 227,
+		"LOYALTY": 45,
+		"NATURE": "NEUTRAL",
+		"MOD_GUTS_RATE": 2,
+		"TECHNIQUES": [
+		  "Thwack",
+		  "Belly Punch",
+		  "Poison Gas",
+		  "Drill Attack"
+		]
+	  },
+	  "TITUS-1": {
+		"_id": "TITUS-1",
+		"MONSTER_NAME": "LATTON",
+		"TRAINER_NAME": "MANDY",
+		"RACE": "NUSSIE",
+		"RACE_TYPE": "BAKU",
+		"RACE_SUBTYPE": "KATO",
+		"LIF": 609,
+		"POW": 386,
+		"INT": 320,
+		"SKI": 182,
+		"SPD": 354,
+		"DEF": 471,
+		"LOYALTY": 47,
+		"NATURE": "BAD",
+		"MOD_GUTS_RATE": 1,
+		"TECHNIQUES": [
+		  "Dust Cloud",
+		  "Charge",
+		  "Diving Press",
+		  "Foul Wind",
+		  "Gust Breath",
+		  "Hypnotism"
+		]
+	  },
+	  "HARTVILLE-1": {
+		"_id": "HARTVILLE-1",
+		"MONSTER_NAME": "MAGEN",
+		"TRAINER_NAME": "PAPAS",
+		"RACE": "MONOL",
+		"RACE_TYPE": "MONOL",
+		"RACE_SUBTYPE": "MONOL",
+		"LIF": 356,
+		"POW": 369,
+		"INT": 311,
+		"SKI": 300,
+		"SPD": 116,
+		"DEF": 582,
+		"LOYALTY": 58,
+		"NATURE": "BEST",
+		"MOD_GUTS_RATE": 1,
+		"TECHNIQUES": [
+		  "Charge",
+		  "Double Rays",
+		  "Flattening",
+		  "Scratch",
+		  "Flattening-L",
+		  "Flattening-X"
+		]
+	  },
+	  "RENO-1": {
+		"_id": "RENO-1",
+		"MONSTER_NAME": "VANZANT",
+		"TRAINER_NAME": "PAPAS",
+		"RACE": "ANTARES",
+		"RACE_TYPE": "CENTAUR",
+		"RACE_SUBTYPE": "ARROWHEAD",
+		"LIF": 450,
+		"POW": 210,
+		"INT": 452,
+		"SKI": 530,
+		"SPD": 406,
+		"DEF": 305,
+		"LOYALTY": 61,
+		"NATURE": "GOOD",
+		"MOD_GUTS_RATE": 3,
+		"TECHNIQUES": [
+		  "Smash",
+		  "Smash Combo",
+		  "Turn Stab",
+		  "RearLeg Kick",
+		  "Rush Slash",
+		  "Energy Shots",
+		  "Jump Javelin"
+		]
+	  },
+	  "PAPAS-1": {
+		"_id": "PAPAS-1",
+		"MONSTER_NAME": "BERNARR",
+		"TRAINER_NAME": "KAWREA",
+		"RACE": "JELLY_HARE",
+		"RACE_TYPE": "HARE",
+		"RACE_SUBTYPE": "JELL",
+		"LIF": 285,
+		"POW": 393,
+		"INT": 179,
+		"SKI": 328,
+		"SPD": 564,
+		"DEF": 238,
+		"LOYALTY": 41,
+		"NATURE": "GOOD",
+		"MOD_GUTS_RATE": 2,
+		"TECHNIQUES": [
+		  "Straight",
+		  "Back Blow",
+		  "1-2 Punch",
+		  "Stinking Gas"
+		]
+	  },
+	  "CHAMPION-1": {
+		"_id": "CHAMPION-1",
+		"MONSTER_NAME": "RIZZI",
+		"TRAINER_NAME": "PAPAS",
+		"RACE": "CLAY",
+		"RACE_TYPE": "JELL",
+		"RACE_SUBTYPE": "MONOL",
+		"LIF": 441,
+		"POW": 226,
+		"INT": 495,
+		"SKI": 435,
+		"SPD": 324,
+		"DEF": 543,
+		"LOYALTY": 49,
+		"NATURE": "GOOD",
+		"MOD_GUTS_RATE": 2,
+		"TECHNIQUES": [
+		  "Slap",
+		  "Diving Press",
+		  "Chop Combo",
+		  "Chop",
+		  "Straight",
+		  "Long Punch"
+		]
+	  },
+	  "MANDY-2": {
+		"_id": "MANDY-2",
+		"MONSTER_NAME": "OTHILIE",
+		"TRAINER_NAME": "TORLES",
+		"RACE": "MEW",
+		"RACE_TYPE": "MEW",
+		"RACE_SUBTYPE": "MEW",
+		"LIF": 547,
+		"POW": 296,
+		"INT": 222,
+		"SKI": 293,
+		"SPD": 297,
+		"DEF": 302,
+		"LOYALTY": 57,
+		"NATURE": "BEST",
+		"MOD_GUTS_RATE": 5,
+		"TECHNIQUES": [
+		  "Punch",
+		  "Leaping Kick",
+		  "Diving Press",
+		  "Twiddling-Z",
+		  "Miaow"
+		]
+	  },
+	  "TORLES-2": {
+		"_id": "TORLES-2",
+		"MONSTER_NAME": "GRAIG",
+		"TRAINER_NAME": "TORLES",
+		"RACE": "WALL_MIMIC",
+		"RACE_TYPE": "JELL",
+		"RACE_SUBTYPE": "GOLEM",
+		"LIF": 235,
+		"POW": 346,
+		"INT": 387,
+		"SKI": 267,
+		"SPD": 330,
+		"DEF": 246,
+		"LOYALTY": 80,
+		"NATURE": "GOOD",
+		"MOD_GUTS_RATE": 12,
+		"TECHNIQUES": [
+		  "Slap",
+		  "Chop",
+		  "ElectricBlow",
+		  "Straight",
+		  "Long Punch"
+		]
+	  },
+	  "PAREPARE-2": {
+		"_id": "PAREPARE-2",
+		"MONSTER_NAME": "DEMETRIUS",
+		"TRAINER_NAME": "HARTVILLE",
+		"RACE": "METAL_GLAY",
+		"RACE_TYPE": "WRACKY",
+		"RACE_SUBTYPE": "METALNER",
+		"LIF": 161,
+		"POW": 233,
+		"INT": 413,
+		"SKI": 426,
+		"SPD": 370,
+		"DEF": 355,
+		"LOYALTY": 46,
+		"NATURE": "BEST",
+		"MOD_GUTS_RATE": 2,
+		"TECHNIQUES": [
+		  "Weapon",
+		  "Heavy Punch",
+		  "Sneak Attack",
+		  "Weapon Throw",
+		  "Air Shot",
+		  "Blast Shot"
+		]
+	  },
+	  "KAWREA-2": {
+		"_id": "KAWREA-2",
+		"MONSTER_NAME": "BRINY",
+		"TRAINER_NAME": "RENO",
+		"RACE": "PURPLE_WORM",
+		"RACE_TYPE": "WORM",
+		"RACE_SUBTYPE": "NAGA",
+		"LIF": 501,
+		"POW": 240,
+		"INT": 251,
+		"SKI": 350,
+		"SPD": 175,
+		"DEF": 307,
+		"LOYALTY": 63,
+		"NATURE": "WORST",
+		"MOD_GUTS_RATE": 3,
+		"TECHNIQUES": [
+		  "Bite",
+		  "Sting",
+		  "Pinch-Throw",
+		  "Tusk Slash",
+		  "Poison Gas"
+		]
+	  },
+	  "TITUS-2": {
+		"_id": "TITUS-2",
+		"MONSTER_NAME": "MUFI",
+		"TRAINER_NAME": "PAPAS",
+		"RACE": "DAINA",
+		"RACE_TYPE": "PIXIE",
+		"RACE_SUBTYPE": "DRAGON",
+		"LIF": 319,
+		"POW": 328,
+		"INT": 381,
+		"SKI": 478,
+		"SPD": 458,
+		"DEF": 328,
+		"LOYALTY": 68,
+		"NATURE": "NEUTRAL",
+		"MOD_GUTS_RATE": 5,
+		"TECHNIQUES": [
+		  "Pat",
+		  "Kick",
+		  "High Kick",
+		  "Bang",
+		  "1-2 Punch",
+		  "Phantom Claw",
+		  "Bolt",
+		  "Lightning",
+		  "Kiss",
+		  "Flame",
+		  "Ray"
+		]
+	  },
+	  "HARTVILLE-2": {
+		"_id": "HARTVILLE-2",
+		"MONSTER_NAME": "NASHOMA",
+		"TRAINER_NAME": "KAWREA",
+		"RACE": "MARBLE_GUY",
+		"RACE_TYPE": "GOLEM",
+		"RACE_SUBTYPE": "NAGA",
+		"LIF": 236,
+		"POW": 587,
+		"INT": 296,
+		"SKI": 344,
+		"SPD": 215,
+		"DEF": 340,
+		"LOYALTY": 49,
+		"NATURE": "GOOD",
+		"MOD_GUTS_RATE": 2,
+		"TECHNIQUES": [
+		  "Heavy Punch",
+		  "Heavy Kick",
+		  "Punch",
+		  "Heavy Slap",
+		  "Brow Smash"
+		]
+	  },
+	  "RENO-2": {
+		"_id": "RENO-2",
+		"MONSTER_NAME": "TIPHANIE",
+		"TRAINER_NAME": "PAREPARE",
+		"RACE": "CORKASUS",
+		"RACE_TYPE": "DRAGON",
+		"RACE_SUBTYPE": "BEACLON",
+		"LIF": 216,
+		"POW": 541,
+		"INT": 462,
+		"SKI": 477,
+		"SPD": 213,
+		"DEF": 277,
+		"LOYALTY": 69,
+		"NATURE": "BEST",
+		"MOD_GUTS_RATE": 3,
+		"TECHNIQUES": [
+		  "Tail Whip",
+		  "Two Bites",
+		  "Wing Attack",
+		  "Wing Combo",
+		  "Claw Combo",
+		  "Flutter",
+		  "Inferno",
+		  "SlammimgDown"
+		]
+	  },
+	  "PAPAS-2": {
+		"_id": "PAPAS-2",
+		"MONSTER_NAME": "LOTTY",
+		"TRAINER_NAME": "PAREPARE",
+		"RACE": "TROPICAL_APE",
+		"RACE_TYPE": "APE",
+		"RACE_SUBTYPE": "PLANT",
+		"LIF": 430,
+		"POW": 459,
+		"INT": 296,
+		"SKI": 380,
+		"SPD": 294,
+		"DEF": 442,
+		"LOYALTY": 57,
+		"NATURE": "NEUTRAL",
+		"MOD_GUTS_RATE": 2,
+		"TECHNIQUES": [
+		  "Slap",
+		  "Thwack",
+		  "Boomerang",
+		  "Big Banana",
+		  "Roll Assault"
+		]
+	  },
+	  "CHAMPION-2": {
+		"_id": "CHAMPION-2",
+		"MONSTER_NAME": "HALFDAN",
+		"TRAINER_NAME": "PAPAS",
+		"RACE": "HIGANTE",
+		"RACE_TYPE": "BAKU",
+		"RACE_SUBTYPE": "GOLEM",
+		"LIF": 553,
+		"POW": 415,
+		"INT": 301,
+		"SKI": 335,
+		"SPD": 167,
+		"DEF": 528,
+		"LOYALTY": 54,
+		"NATURE": "BAD",
+		"MOD_GUTS_RATE": 4,
+		"TECHNIQUES": [
+		  "Dust Cloud",
+		  "Bite",
+		  "Charge",
+		  "Diving Press",
+		  "Mating Song",
+		  "Gust Breath"
+		]
+	  },
+	  "MANDY-3": {
+		"_id": "MANDY-3",
+		"MONSTER_NAME": "RENEE",
+		"TRAINER_NAME": "KAWREA",
+		"RACE": "NEW_LEAF",
+		"RACE_TYPE": "MONOL",
+		"RACE_SUBTYPE": "PLANT",
+		"LIF": 230,
+		"POW": 317,
+		"INT": 304,
+		"SKI": 309,
+		"SPD": 218,
+		"DEF": 398,
+		"LOYALTY": 74,
+		"NATURE": "NEUTRAL",
+		"MOD_GUTS_RATE": 1,
+		"TECHNIQUES": [
+		  "Charge",
+		  "Flattening",
+		  "Flattening-L",
+		  "Screech",
+		  "Flattening-X"
+		]
+	  },
+	  "TORLES-3": {
+		"_id": "TORLES-3",
+		"MONSTER_NAME": "GOLDARINA",
+		"TRAINER_NAME": "RENO",
+		"RACE": "PRESSURE",
+		"RACE_TYPE": "GOLEM",
+		"RACE_SUBTYPE": "ZILLA",
+		"LIF": 332,
+		"POW": 272,
+		"INT": 558,
+		"SKI": 251,
+		"SPD": 232,
+		"DEF": 614,
+		"LOYALTY": 54,
+		"NATURE": "BAD",
+		"MOD_GUTS_RATE": 4,
+		"TECHNIQUES": [
+		  "Heavy Punch",
+		  "Kick",
+		  "Heavy Kick",
+		  "Thwack",
+		  "Punch",
+		  "Heavy Slap",
+		  "Brow Smash",
+		  "Giant Clap"
+		]
+	  },
+	  "PAREPARE-3": {
+		"_id": "PAREPARE-3",
+		"MONSTER_NAME": "SAYRE",
+		"TRAINER_NAME": "MANDY",
+		"RACE": "BIG_BLUE",
+		"RACE_TYPE": "GOLEM",
+		"RACE_SUBTYPE": "TIGER",
+		"LIF": 476,
+		"POW": 350,
+		"INT": 367,
+		"SKI": 343,
+		"SPD": 293,
+		"DEF": 358,
+		"LOYALTY": 64,
+		"NATURE": "BEST",
+		"MOD_GUTS_RATE": 2,
+		"TECHNIQUES": [
+		  "Heavy Punch",
+		  "Kick",
+		  "Heavy Kick",
+		  "Slap",
+		  "Thwack",
+		  "Punch",
+		  "Heavy Slap",
+		  "Brow Smash"
+		]
+	  },
+	  "KAWREA-3": {
+		"_id": "KAWREA-3",
+		"MONSTER_NAME": "FORREST",
+		"TRAINER_NAME": "MANDY",
+		"RACE": "MANNA",
+		"RACE_TYPE": "MOCCHI",
+		"RACE_SUBTYPE": "PIXIE",
+		"LIF": 253,
+		"POW": 466,
+		"INT": 419,
+		"SKI": 478,
+		"SPD": 467,
+		"DEF": 483,
+		"LOYALTY": 49,
+		"NATURE": "WORST",
+		"MOD_GUTS_RATE": 1,
+		"TECHNIQUES": [
+		  "Slap",
+		  "1-2 Thrust",
+		  "Head Butt",
+		  "Roll Attack",
+		  "Mocchi Ray"
+		]
+	  },
+	  "TITUS-3": {
+		"_id": "TITUS-3",
+		"MONSTER_NAME": "TABATHA",
+		"TRAINER_NAME": "KAWREA",
+		"RACE": "FOUR_EYED",
+		"RACE_TYPE": "HARE",
+		"RACE_SUBTYPE": "SUEZO",
+		"LIF": 405,
+		"POW": 366,
+		"INT": 207,
+		"SKI": 299,
+		"SPD": 247,
+		"DEF": 192,
+		"LOYALTY": 50,
+		"NATURE": "BAD",
+		"MOD_GUTS_RATE": 4,
+		"TECHNIQUES": [
+		  "Straight",
+		  "Kung Fu Blow",
+		  "Back Blow",
+		  "Heavy Smash",
+		  "1-2 Punch",
+		  "Stinking Gas"
+		]
+	  },
+	  "HARTVILLE-3": {
+		"_id": "HARTVILLE-3",
+		"MONSTER_NAME": "SHEILA-KATHRYN",
+		"TRAINER_NAME": "HARTVILLE",
+		"RACE": "SCALED_MASK/LEXUS",
+		"RACE_TYPE": "GALI",
+		"RACE_SUBTYPE": "ZUUM",
+		"LIF": 267,
+		"POW": 441,
+		"INT": 418,
+		"SKI": 307,
+		"SPD": 294,
+		"DEF": 358,
+		"LOYALTY": 62,
+		"NATURE": "NEUTRAL",
+		"MOD_GUTS_RATE": 9,
+		"TECHNIQUES": [
+		  "Back Blow",
+		  "Heavy Blow",
+		  "Straight",
+		  "Thunderbolt"
+		]
+	  },
+	  "RENO-3": {
+		"_id": "RENO-3",
+		"MONSTER_NAME": "VIVIYAN",
+		"TRAINER_NAME": "KAWREA",
+		"RACE": "BATTLE_ROCKS",
+		"RACE_TYPE": "GOLEM",
+		"RACE_SUBTYPE": "DURAHAN",
+		"LIF": 310,
+		"POW": 637,
+		"INT": 330,
+		"SKI": 241,
+		"SPD": 230,
+		"DEF": 491,
+		"LOYALTY": 58,
+		"NATURE": "BAD",
+		"MOD_GUTS_RATE": 5,
+		"TECHNIQUES": [
+		  "Heavy Punch",
+		  "Kick",
+		  "Heavy Kick",
+		  "Uppercut",
+		  "Punch",
+		  "Heavy Slap",
+		  "Roll Assault",
+		  "Brow Smash",
+		  "Fist Missile"
+		]
+	  },
+	  "PAPAS-3": {
+		"_id": "PAPAS-3",
+		"MONSTER_NAME": "MOLLY",
+		"TRAINER_NAME": "RENO",
+		"RACE": "PHOENIX",
+		"RACE_TYPE": "PHOENIX",
+		"RACE_SUBTYPE": "PHOENIX",
+		"LIF": 497,
+		"POW": 335,
+		"INT": 521,
+		"SKI": 289,
+		"SPD": 501,
+		"DEF": 251,
+		"LOYALTY": 53,
+		"NATURE": "BEST",
+		"MOD_GUTS_RATE": 8,
+		"TECHNIQUES": [
+		  "Beak",
+		  "Talons",
+		  "Flame Shot",
+		  "Flame Cannon",
+		  "Heat Beam"
+		]
+	  },
+	  "CHAMPION-3": {
+		"_id": "CHAMPION-3",
+		"MONSTER_NAME": "LILAS",
+		"TRAINER_NAME": "RENO",
+		"RACE": "SAND_SAURIAN",
+		"RACE_TYPE": "ZUUM",
+		"RACE_SUBTYPE": "BAJARL",
+		"LIF": 339,
+		"POW": 467,
+		"INT": 302,
+		"SKI": 591,
+		"SPD": 225,
+		"DEF": 227,
+		"LOYALTY": 53,
+		"NATURE": "BEST",
+		"MOD_GUTS_RATE": 5,
+		"TECHNIQUES": [
+		  "Claw",
+		  "Tail",
+		  "Tail Lashes",
+		  "Hypnotism",
+		  "Tail Combo",
+		  "Jumping Claw",
+		  "Fire Ball",
+		  "Charge"
+		]
+	  },
+	  "MANDY-4": {
+		"_id": "MANDY-4",
+		"MONSTER_NAME": "ANGELINE",
+		"TRAINER_NAME": "PAREPARE",
+		"RACE": "ZUUM",
+		"RACE_TYPE": "ZUUM",
+		"RACE_SUBTYPE": "ZUUM",
+		"LIF": 360,
+		"POW": 263,
+		"INT": 320,
+		"SKI": 482,
+		"SPD": 433,
+		"DEF": 224,
+		"LOYALTY": 66,
+		"NATURE": "NEUTRAL",
+		"MOD_GUTS_RATE": 1,
+		"TECHNIQUES": [
+		  "Claw",
+		  "MillionClaws",
+		  "MillionBites",
+		  "Tail",
+		  "Tail Lashes",
+		  "Dust Cloud",
+		  "Jumping Claw",
+		  "Aerial Claw",
+		  "Charge"
+		]
+	  },
+	  "TORLES-4": {
+		"_id": "TORLES-4",
+		"MONSTER_NAME": "RUBIA",
+		"TRAINER_NAME": "HARTVILLE",
+		"RACE": "EARED_MEW",
+		"RACE_TYPE": "MEW",
+		"RACE_SUBTYPE": "HARE",
+		"LIF": 568,
+		"POW": 462,
+		"INT": 289,
+		"SKI": 474,
+		"SPD": 463,
+		"DEF": 291,
+		"LOYALTY": 72,
+		"NATURE": "NEUTRAL",
+		"MOD_GUTS_RATE": 4,
+		"TECHNIQUES": [
+		  "Punch",
+		  "Head Butt",
+		  "Leaping Kick",
+		  "Diving Press",
+		  "Miaow"
+		]
+	  },
+	  "PAREPARE-4": {
+		"_id": "PAREPARE-4",
+		"MONSTER_NAME": "ROBIN",
+		"TRAINER_NAME": "RENO",
+		"RACE": "LIQUID_CUBE",
+		"RACE_TYPE": "COLORPANDORA",
+		"RACE_SUBTYPE": "JELL",
+		"LIF": 544,
+		"POW": 209,
+		"INT": 356,
+		"SKI": 331,
+		"SPD": 440,
+		"DEF": 232,
+		"LOYALTY": 42,
+		"NATURE": "GOOD",
+		"MOD_GUTS_RATE": 3,
+		"TECHNIQUES": [
+		  "Face Attack",
+		  "Tail Swing",
+		  "Two Swings",
+		  "Kamikaze",
+		  "Vital Ritual",
+		  "Cracker",
+		  "Shotgun",
+		  "Megashotgun"
+		]
+	  },
+	  "KAWREA-4": {
+		"_id": "KAWREA-4",
+		"MONSTER_NAME": "HELAINA",
+		"TRAINER_NAME": "PAREPARE",
+		"RACE": "COLORPANDORA",
+		"RACE_TYPE": "COLORPANDORA",
+		"RACE_SUBTYPE": "COLORPANDORA",
+		"LIF": 637,
+		"POW": 259,
+		"INT": 308,
+		"SKI": 384,
+		"SPD": 290,
+		"DEF": 170,
+		"LOYALTY": 48,
+		"NATURE": "BAD",
+		"MOD_GUTS_RATE": 1,
+		"TECHNIQUES": [
+		  "Face Attack",
+		  "Giant Whip",
+		  "Tail Swing",
+		  "Two Swings",
+		  "Cracker",
+		  "Megacracker",
+		  "Triple Shots",
+		  "Delta Attack",
+		  "Shotgun"
+		]
+	  },
+	  "TITUS-4": {
+		"_id": "TITUS-4",
+		"MONSTER_NAME": "GERTRUDE",
+		"TRAINER_NAME": "TITUS",
+		"RACE": "ROCKLON",
+		"RACE_TYPE": "BEACLON",
+		"RACE_SUBTYPE": "GOLEM",
+		"LIF": 297,
+		"POW": 427,
+		"INT": 254,
+		"SKI": 344,
+		"SPD": 316,
+		"DEF": 394,
+		"LOYALTY": 71,
+		"NATURE": "NEUTRAL",
+		"MOD_GUTS_RATE": 2,
+		"TECHNIQUES": [
+		  "Punch",
+		  "Horn Strike",
+		  "SpinningHorn",
+		  "Dive Assault",
+		  "Horn Combo",
+		  "Top Assault"
+		]
+	  },
+	  "HARTVILLE-4": {
+		"_id": "HARTVILLE-4",
+		"MONSTER_NAME": "MYRTLE",
+		"TRAINER_NAME": "PAPAS",
+		"RACE": "JAGGERNAUT",
+		"RACE_TYPE": "BEACLON",
+		"RACE_SUBTYPE": "JOKER",
+		"LIF": 222,
+		"POW": 596,
+		"INT": 330,
+		"SKI": 300,
+		"SPD": 220,
+		"DEF": 404,
+		"LOYALTY": 73,
+		"NATURE": "GOOD",
+		"MOD_GUTS_RATE": 1,
+		"TECHNIQUES": [
+		  "Punch",
+		  "MaximalPunch",
+		  "SpinningHorn",
+		  "Dive Assault",
+		  "Top Assault"
+		]
+	  },
+	  "RENO-4": {
+		"_id": "RENO-4",
+		"MONSTER_NAME": "MINNNIE",
+		"TRAINER_NAME": "TITUS",
+		"RACE": "PURPLE_MASK/SHINKAMEN",
+		"RACE_TYPE": "GALI",
+		"RACE_SUBTYPE": "NAGA",
+		"LIF": 316,
+		"POW": 475,
+		"INT": 481,
+		"SKI": 326,
+		"SPD": 349,
+		"DEF": 301,
+		"LOYALTY": 51,
+		"NATURE": "NEUTRAL",
+		"MOD_GUTS_RATE": 1,
+		"TECHNIQUES": [
+		  "Back Blow",
+		  "Heavy Blow",
+		  "Whirlwind",
+		  "Typhoon",
+		  "Straight",
+		  "Thunderbolt",
+		  "Cutting Mask"
+		]
+	  },
+	  "PAPAS-4": {
+		"_id": "PAPAS-4",
+		"MONSTER_NAME": "RUTHY",
+		"TRAINER_NAME": "KAWREA",
+		"RACE": "JUNGLER",
+		"RACE_TYPE": "NAGA",
+		"RACE_SUBTYPE": "PLANT",
+		"LIF": 265,
+		"POW": 281,
+		"INT": 208,
+		"SKI": 543,
+		"SPD": 273,
+		"DEF": 339,
+		"LOYALTY": 44,
+		"NATURE": "BEST",
+		"MOD_GUTS_RATE": 1,
+		"TECHNIQUES": [
+		  "Thwack",
+		  "Belly Punch",
+		  "Pierce",
+		  "Tail Assault",
+		  "Poison Gas",
+		  "Drill Attack"
+		]
+	  },
+	  "CHAMPION-4": {
+		"_id": "CHAMPION-4",
+		"MONSTER_NAME": "BEESON",
+		"TRAINER_NAME": "PAPAS",
+		"RACE": "SNOW_HOPPER",
+		"RACE_TYPE": "HOPPER",
+		"RACE_SUBTYPE": "JILL",
+		"LIF": 345,
+		"POW": 328,
+		"INT": 221,
+		"SKI": 436,
+		"SPD": 342,
+		"DEF": 337,
+		"LOYALTY": 77,
+		"NATURE": "GOOD",
+		"MOD_GUTS_RATE": 3,
+		"TECHNIQUES": [
+		  "Hook",
+		  "2 Jump Blows",
+		  "Jab",
+		  "Flick",
+		  "Phantom Claw",
+		  "Rapid Flick"
+		]
+	  },
+	  "MANDY-5": {
+		"_id": "MANDY-5",
+		"MONSTER_NAME": "DIONE",
+		"TRAINER_NAME": "TORLES",
+		"RACE": "BLUE_PLANT",
+		"RACE_TYPE": "PLANT",
+		"RACE_SUBTYPE": "TIGER",
+		"LIF": 262,
+		"POW": 309,
+		"INT": 320,
+		"SKI": 298,
+		"SPD": 243,
+		"DEF": 328,
+		"LOYALTY": 79,
+		"NATURE": "BAD",
+		"MOD_GUTS_RATE": 4,
+		"TECHNIQUES": [
+		  "Slap",
+		  "Life Steal",
+		  "Jab",
+		  "Toxic Nectar",
+		  "Seed Gun",
+		  "Seed Gatling"
+		]
+	  },
+	  "TORLES-5": {
+		"_id": "TORLES-5",
+		"MONSTER_NAME": "ADDIS",
+		"TRAINER_NAME": "RENO",
+		"RACE": "DOKOO",
+		"RACE_TYPE": "GABOO",
+		"RACE_SUBTYPE": "JOKER",
+		"LIF": 464,
+		"POW": 450,
+		"INT": 234,
+		"SKI": 461,
+		"SPD": 258,
+		"DEF": 211,
+		"LOYALTY": 52,
+		"NATURE": "BAD",
+		"MOD_GUTS_RATE": 6,
+		"TECHNIQUES": [
+		  "Slap",
+		  "Chop",
+		  "Rolling Chop",
+		  "Straight",
+		  "Long Punch"
+		]
+	  },
+	  "PAREPARE-5": {
+		"_id": "PAREPARE-5",
+		"MONSTER_NAME": "HERMINA",
+		"TRAINER_NAME": "HARTVILLE",
+		"RACE": "NYANKORO",
+		"RACE_TYPE": "MOCCHI",
+		"RACE_SUBTYPE": "KATO",
+		"LIF": 360,
+		"POW": 198,
+		"INT": 304,
+		"SKI": 338,
+		"SPD": 515,
+		"DEF": 455,
+		"LOYALTY": 72,
+		"NATURE": "BEST",
+		"MOD_GUTS_RATE": 4,
+		"TECHNIQUES": [
+		  "Slap",
+		  "1-2 Thrust",
+		  "Head Butt",
+		  "Roll Attack",
+		  "Mocchi Ray",
+		  "Roll Assault"
+		]
+	  },
+	  "KAWREA-5": {
+		"_id": "KAWREA-5",
+		"MONSTER_NAME": "HAILEE",
+		"TRAINER_NAME": "TITUS",
+		"RACE": "SNEAK_HOPPER",
+		"RACE_TYPE": "HOPPER",
+		"RACE_SUBTYPE": "JOKER",
+		"LIF": 267,
+		"POW": 270,
+		"INT": 500,
+		"SKI": 472,
+		"SPD": 277,
+		"DEF": 193,
+		"LOYALTY": 70,
+		"NATURE": "NEUTRAL",
+		"MOD_GUTS_RATE": 9,
+		"TECHNIQUES": [
+		  "Hook",
+		  "2 Jump Blows",
+		  "Jab",
+		  "Flick",
+		  "Phantom Claw",
+		  "Rapid Flick"
+		]
+	  },
+	  "TITUS-5": {
+		"_id": "TITUS-5",
+		"MONSTER_NAME": "YOSHIKO",
+		"TRAINER_NAME": "TORLES",
+		"RACE": "TROJAN",
+		"RACE_TYPE": "CENTAUR",
+		"RACE_SUBTYPE": "GOLEM",
+		"LIF": 371,
+		"POW": 404,
+		"INT": 465,
+		"SKI": 261,
+		"SPD": 325,
+		"DEF": 334,
+		"LOYALTY": 44,
+		"NATURE": "BEST",
+		"MOD_GUTS_RATE": 10,
+		"TECHNIQUES": [
+		  "Smash",
+		  "Turn Stab",
+		  "RearLeg Kick",
+		  "Rush Slash"
+		]
+	  },
+	  "HARTVILLE-5": {
+		"_id": "HARTVILLE-5",
+		"MONSTER_NAME": "DARI",
+		"TRAINER_NAME": "TORLES",
+		"RACE": "RED_WORM",
+		"RACE_TYPE": "WORM",
+		"RACE_SUBTYPE": "PIXIE",
+		"LIF": 498,
+		"POW": 380,
+		"INT": 398,
+		"SKI": 477,
+		"SPD": 207,
+		"DEF": 248,
+		"LOYALTY": 64,
+		"NATURE": "GOOD",
+		"MOD_GUTS_RATE": 5,
+		"TECHNIQUES": [
+		  "Bite",
+		  "Sting",
+		  "Pierce-Throw",
+		  "Pinch-Throw",
+		  "Poison Gas"
+		]
+	  },
+	  "RENO-5": {
+		"_id": "RENO-5",
+		"MONSTER_NAME": "COOKIE",
+		"TRAINER_NAME": "KAWREA",
+		"RACE": "ZILLA",
+		"RACE_TYPE": "ZILLA",
+		"RACE_SUBTYPE": "ZILLA",
+		"LIF": 471,
+		"POW": 446,
+		"INT": 352,
+		"SKI": 218,
+		"SPD": 218,
+		"DEF": 286,
+		"LOYALTY": 43,
+		"NATURE": "GOOD",
+		"MOD_GUTS_RATE": 2,
+		"TECHNIQUES": [
+		  "Belly Attack",
+		  "Scratch",
+		  "Earthquake",
+		  "Roll Assault"
+		]
+	  },
+	  "PAPAS-5": {
+		"_id": "PAPAS-5",
+		"MONSTER_NAME": "NOBY",
+		"TRAINER_NAME": "KAWREA",
+		"RACE": "BLUE_SPONGE",
+		"RACE_TYPE": "MONOL",
+		"RACE_SUBTYPE": "TIGER",
+		"LIF": 373,
+		"POW": 319,
+		"INT": 461,
+		"SKI": 259,
+		"SPD": 233,
+		"DEF": 340,
+		"LOYALTY": 50,
+		"NATURE": "NEUTRAL",
+		"MOD_GUTS_RATE": 3,
+		"TECHNIQUES": [
+		  "Charge",
+		  "Flattening",
+		  "Three Knocks",
+		  "Flattening-L",
+		  "Screech",
+		  "Flattening-X",
+		  "Sound Wave",
+		  "Double Beams"
+		]
+	  },
+	  "CHAMPION-5": {
+		"_id": "CHAMPION-5",
+		"MONSTER_NAME": "ALONZO",
+		"TRAINER_NAME": "TORLES",
+		"RACE": "USABA",
+		"RACE_TYPE": "PLANT",
+		"RACE_SUBTYPE": "SUEZO",
+		"LIF": 462,
+		"POW": 252,
+		"INT": 299,
+		"SKI": 362,
+		"SPD": 326,
+		"DEF": 241,
+		"LOYALTY": 54,
+		"NATURE": "BEST",
+		"MOD_GUTS_RATE": 4,
+		"TECHNIQUES": [
+		  "Slap",
+		  "Jab",
+		  "Plant Combo",
+		  "Toxic Nectar",
+		  "Seed Gun"
+		]
+	  }
+	},
+	"results": [
+	  {
+		"_id": "t-SPEC-TOURNAMENT-MANDY-TORLES",
+		"teams": [
+		  "MANDY",
+		  "TORLES"
+		],
+		"left": "MANDY",
+		"right": "TORLES",
+		"matchups": [
+		  {
+			"_id": "M-SPEC-TOURNAMENT-1-MANDY-1-TORLES-1",
+			"left": "MANDY-1",
+			"right": "TORLES-1",
+			"matchupNumber": 1,
+			"winner": "TORLES-1",
+			"teamIndex": {
+			  "MANDY-1": "MANDY",
+			  "TORLES-1": "TORLES"
+			}
+		  },
+		  {
+			"_id": "M-SPEC-TOURNAMENT-2-MANDY-2-TORLES-2",
+			"left": "MANDY-2",
+			"right": "TORLES-2",
+			"matchupNumber": 2,
+			"winner": "MANDY-2",
+			"teamIndex": {
+			  "MANDY-2": "MANDY",
+			  "TORLES-2": "TORLES"
+			}
+		  },
+		  {
+			"_id": "M-SPEC-TOURNAMENT-3-MANDY-3-TORLES-3",
+			"left": "MANDY-3",
+			"right": "TORLES-3",
+			"matchupNumber": 3,
+			"winner": "TORLES-3",
+			"teamIndex": {
+			  "MANDY-3": "MANDY",
+			  "TORLES-3": "TORLES"
+			}
+		  },
+		  {
+			"_id": "M-SPEC-TOURNAMENT-4-MANDY-4-TORLES-4",
+			"left": "MANDY-4",
+			"right": "TORLES-4",
+			"matchupNumber": 4,
+			"winner": "TORLES-4",
+			"teamIndex": {
+			  "MANDY-4": "MANDY",
+			  "TORLES-4": "TORLES"
+			}
+		  },
+		  {
+			"_id": "M-SPEC-TOURNAMENT-5-MANDY-5-TORLES-5",
+			"left": "MANDY-5",
+			"right": "TORLES-5",
+			"matchupNumber": 5,
+			"winner": "TORLES-5",
+			"teamIndex": {
+			  "MANDY-5": "MANDY",
+			  "TORLES-5": "TORLES"
+			}
+		  }
+		],
+		"winner": "TORLES",
+		"loser": "MANDY"
+	  },
+	  {
+		"_id": "t-SPEC-TOURNAMENT-PAREPARE-KAWREA",
+		"teams": [
+		  "PAREPARE",
+		  "KAWREA"
+		],
+		"left": "PAREPARE",
+		"right": "KAWREA",
+		"matchups": [
+		  {
+			"_id": "M-SPEC-TOURNAMENT-6-PAREPARE-1-KAWREA-1",
+			"left": "PAREPARE-1",
+			"right": "KAWREA-1",
+			"matchupNumber": 6,
+			"winner": "PAREPARE-1",
+			"teamIndex": {
+			  "PAREPARE-1": "PAREPARE",
+			  "KAWREA-1": "KAWREA"
+			}
+		  },
+		  {
+			"_id": "M-SPEC-TOURNAMENT-7-PAREPARE-2-KAWREA-2",
+			"left": "PAREPARE-2",
+			"right": "KAWREA-2",
+			"matchupNumber": 7,
+			"winner": "PAREPARE-2",
+			"teamIndex": {
+			  "PAREPARE-2": "PAREPARE",
+			  "KAWREA-2": "KAWREA"
+			}
+		  },
+		  {
+			"_id": "M-SPEC-TOURNAMENT-8-PAREPARE-3-KAWREA-3",
+			"left": "PAREPARE-3",
+			"right": "KAWREA-3",
+			"matchupNumber": 8,
+			"winner": "KAWREA-3",
+			"teamIndex": {
+			  "PAREPARE-3": "PAREPARE",
+			  "KAWREA-3": "KAWREA"
+			}
+		  },
+		  {
+			"_id": "M-SPEC-TOURNAMENT-9-PAREPARE-4-KAWREA-4",
+			"left": "PAREPARE-4",
+			"right": "KAWREA-4",
+			"matchupNumber": 9,
+			"winner": "KAWREA-4",
+			"teamIndex": {
+			  "PAREPARE-4": "PAREPARE",
+			  "KAWREA-4": "KAWREA"
+			}
+		  },
+		  {
+			"_id": "M-SPEC-TOURNAMENT-10-PAREPARE-5-KAWREA-5",
+			"left": "PAREPARE-5",
+			"right": "KAWREA-5",
+			"matchupNumber": 10,
+			"winner": "KAWREA-5",
+			"teamIndex": {
+			  "PAREPARE-5": "PAREPARE",
+			  "KAWREA-5": "KAWREA"
+			}
+		  }
+		],
+		"winner": "KAWREA",
+		"loser": "PAREPARE"
+	  },
+	  {
+		"_id": "t-SPEC-TOURNAMENT-TITUS-HARTVILLE",
+		"teams": [
+		  "TITUS",
+		  "HARTVILLE"
+		],
+		"left": "TITUS",
+		"right": "HARTVILLE",
+		"matchups": [
+		  {
+			"_id": "M-SPEC-TOURNAMENT-11-TITUS-1-HARTVILLE-1",
+			"left": "TITUS-1",
+			"right": "HARTVILLE-1",
+			"matchupNumber": 11,
+			"winner": "HARTVILLE-1",
+			"teamIndex": {
+			  "TITUS-1": "TITUS",
+			  "HARTVILLE-1": "HARTVILLE"
+			}
+		  },
+		  {
+			"_id": "M-SPEC-TOURNAMENT-12-TITUS-2-HARTVILLE-2",
+			"left": "TITUS-2",
+			"right": "HARTVILLE-2",
+			"matchupNumber": 12,
+			"winner": "HARTVILLE-2",
+			"teamIndex": {
+			  "TITUS-2": "TITUS",
+			  "HARTVILLE-2": "HARTVILLE"
+			}
+		  },
+		  {
+			"_id": "M-SPEC-TOURNAMENT-13-TITUS-3-HARTVILLE-3",
+			"left": "TITUS-3",
+			"right": "HARTVILLE-3",
+			"matchupNumber": 13,
+			"winner": "TITUS-3",
+			"teamIndex": {
+			  "TITUS-3": "TITUS",
+			  "HARTVILLE-3": "HARTVILLE"
+			}
+		  },
+		  {
+			"_id": "M-SPEC-TOURNAMENT-14-TITUS-4-HARTVILLE-4",
+			"left": "TITUS-4",
+			"right": "HARTVILLE-4",
+			"matchupNumber": 14,
+			"winner": "TITUS-4",
+			"teamIndex": {
+			  "TITUS-4": "TITUS",
+			  "HARTVILLE-4": "HARTVILLE"
+			}
+		  },
+		  {
+			"_id": "M-SPEC-TOURNAMENT-15-TITUS-5-HARTVILLE-5",
+			"left": "TITUS-5",
+			"right": "HARTVILLE-5",
+			"matchupNumber": 15,
+			"winner": "TITUS-5",
+			"teamIndex": {
+			  "TITUS-5": "TITUS",
+			  "HARTVILLE-5": "HARTVILLE"
+			}
+		  }
+		],
+		"winner": "TITUS",
+		"loser": "HARTVILLE"
+	  },
+	  {
+		"_id": "t-SPEC-TOURNAMENT-RENO-PAPAS",
+		"teams": [
+		  "RENO",
+		  "PAPAS"
+		],
+		"left": "RENO",
+		"right": "PAPAS",
+		"matchups": [
+		  {
+			"_id": "M-SPEC-TOURNAMENT-16-RENO-1-PAPAS-1",
+			"left": "RENO-1",
+			"right": "PAPAS-1",
+			"matchupNumber": 16,
+			"winner": "PAPAS-1",
+			"teamIndex": {
+			  "RENO-1": "RENO",
+			  "PAPAS-1": "PAPAS"
+			}
+		  },
+		  {
+			"_id": "M-SPEC-TOURNAMENT-17-RENO-2-PAPAS-2",
+			"left": "RENO-2",
+			"right": "PAPAS-2",
+			"matchupNumber": 17,
+			"winner": "RENO-2",
+			"teamIndex": {
+			  "RENO-2": "RENO",
+			  "PAPAS-2": "PAPAS"
+			}
+		  },
+		  {
+			"_id": "M-SPEC-TOURNAMENT-18-RENO-3-PAPAS-3",
+			"left": "RENO-3",
+			"right": "PAPAS-3",
+			"matchupNumber": 18,
+			"winner": "RENO-3",
+			"teamIndex": {
+			  "RENO-3": "RENO",
+			  "PAPAS-3": "PAPAS"
+			}
+		  },
+		  {
+			"_id": "M-SPEC-TOURNAMENT-19-RENO-4-PAPAS-4",
+			"left": "RENO-4",
+			"right": "PAPAS-4",
+			"matchupNumber": 19,
+			"winner": "RENO-4",
+			"teamIndex": {
+			  "RENO-4": "RENO",
+			  "PAPAS-4": "PAPAS"
+			}
+		  },
+		  {
+			"_id": "M-SPEC-TOURNAMENT-20-RENO-5-PAPAS-5",
+			"left": "RENO-5",
+			"right": "PAPAS-5",
+			"matchupNumber": 20,
+			"winner": "RENO-5",
+			"teamIndex": {
+			  "RENO-5": "RENO",
+			  "PAPAS-5": "PAPAS"
+			}
+		  }
+		],
+		"winner": "RENO",
+		"loser": "PAPAS"
+	  },
+	  {
+		"_id": "t-SPEC-TOURNAMENT-TORLES-KAWREA",
+		"teams": [
+		  "TORLES",
+		  "KAWREA"
+		],
+		"left": "TORLES",
+		"right": "KAWREA",
+		"matchups": [
+		  {
+			"_id": "M-SPEC-TOURNAMENT-21-TORLES-1-KAWREA-1",
+			"left": "TORLES-1",
+			"right": "KAWREA-1",
+			"matchupNumber": 21,
+			"winner": "KAWREA-1",
+			"teamIndex": {
+			  "TORLES-1": "TORLES",
+			  "KAWREA-1": "KAWREA"
+			}
+		  },
+		  {
+			"_id": "M-SPEC-TOURNAMENT-22-TORLES-2-KAWREA-2",
+			"left": "TORLES-2",
+			"right": "KAWREA-2",
+			"matchupNumber": 22,
+			"winner": "KAWREA-2",
+			"teamIndex": {
+			  "TORLES-2": "TORLES",
+			  "KAWREA-2": "KAWREA"
+			}
+		  },
+		  {
+			"_id": "M-SPEC-TOURNAMENT-23-TORLES-3-KAWREA-3",
+			"left": "TORLES-3",
+			"right": "KAWREA-3",
+			"matchupNumber": 23,
+			"winner": "KAWREA-3",
+			"teamIndex": {
+			  "TORLES-3": "TORLES",
+			  "KAWREA-3": "KAWREA"
+			}
+		  },
+		  {
+			"_id": "M-SPEC-TOURNAMENT-24-TORLES-4-KAWREA-4",
+			"left": "TORLES-4",
+			"right": "KAWREA-4",
+			"matchupNumber": 24,
+			"winner": "TORLES-4",
+			"teamIndex": {
+			  "TORLES-4": "TORLES",
+			  "KAWREA-4": "KAWREA"
+			}
+		  },
+		  {
+			"_id": "M-SPEC-TOURNAMENT-25-TORLES-5-KAWREA-5",
+			"left": "TORLES-5",
+			"right": "KAWREA-5",
+			"matchupNumber": 25,
+			"winner": "KAWREA-5",
+			"teamIndex": {
+			  "TORLES-5": "TORLES",
+			  "KAWREA-5": "KAWREA"
+			}
+		  }
+		],
+		"winner": "KAWREA",
+		"loser": "TORLES"
+	  },
+	  {
+		"_id": "t-SPEC-TOURNAMENT-TITUS-RENO",
+		"teams": [
+		  "TITUS",
+		  "RENO"
+		],
+		"left": "TITUS",
+		"right": "RENO",
+		"matchups": [
+		  {
+			"_id": "M-SPEC-TOURNAMENT-26-TITUS-1-RENO-1",
+			"left": "TITUS-1",
+			"right": "RENO-1",
+			"matchupNumber": 26,
+			"winner": "RENO-1",
+			"teamIndex": {
+			  "TITUS-1": "TITUS",
+			  "RENO-1": "RENO"
+			}
+		  },
+		  {
+			"_id": "M-SPEC-TOURNAMENT-27-TITUS-2-RENO-2",
+			"left": "TITUS-2",
+			"right": "RENO-2",
+			"matchupNumber": 27,
+			"winner": "RENO-2",
+			"teamIndex": {
+			  "TITUS-2": "TITUS",
+			  "RENO-2": "RENO"
+			}
+		  },
+		  {
+			"_id": "M-SPEC-TOURNAMENT-28-TITUS-3-RENO-3",
+			"left": "TITUS-3",
+			"right": "RENO-3",
+			"matchupNumber": 28,
+			"winner": "RENO-3",
+			"teamIndex": {
+			  "TITUS-3": "TITUS",
+			  "RENO-3": "RENO"
+			}
+		  },
+		  {
+			"_id": "M-SPEC-TOURNAMENT-29-TITUS-4-RENO-4",
+			"left": "TITUS-4",
+			"right": "RENO-4",
+			"matchupNumber": 29,
+			"winner": "TITUS-4",
+			"teamIndex": {
+			  "TITUS-4": "TITUS",
+			  "RENO-4": "RENO"
+			}
+		  },
+		  {
+			"_id": "M-SPEC-TOURNAMENT-30-TITUS-5-RENO-5",
+			"left": "TITUS-5",
+			"right": "RENO-5",
+			"matchupNumber": 30,
+			"winner": "TITUS-5",
+			"teamIndex": {
+			  "TITUS-5": "TITUS",
+			  "RENO-5": "RENO"
+			}
+		  }
+		],
+		"winner": "RENO",
+		"loser": "TITUS"
+	  },
+	  {
+		"_id": "t-SPEC-TOURNAMENT-KAWREA-RENO",
+		"teams": [
+		  "KAWREA",
+		  "RENO"
+		],
+		"left": "KAWREA",
+		"right": "RENO",
+		"matchups": [
+		  {
+			"_id": "M-SPEC-TOURNAMENT-31-KAWREA-1-RENO-1",
+			"left": "KAWREA-1",
+			"right": "RENO-1",
+			"matchupNumber": 31,
+			"winner": "KAWREA-1",
+			"teamIndex": {
+			  "KAWREA-1": "KAWREA",
+			  "RENO-1": "RENO"
+			}
+		  },
+		  {
+			"_id": "M-SPEC-TOURNAMENT-32-KAWREA-2-RENO-2",
+			"left": "KAWREA-2",
+			"right": "RENO-2",
+			"matchupNumber": 32,
+			"winner": "KAWREA-2",
+			"teamIndex": {
+			  "KAWREA-2": "KAWREA",
+			  "RENO-2": "RENO"
+			}
+		  },
+		  {
+			"_id": "M-SPEC-TOURNAMENT-33-KAWREA-3-RENO-3",
+			"left": "KAWREA-3",
+			"right": "RENO-3",
+			"matchupNumber": 33,
+			"winner": "KAWREA-3",
+			"teamIndex": {
+			  "KAWREA-3": "KAWREA",
+			  "RENO-3": "RENO"
+			}
+		  },
+		  {
+			"_id": "M-SPEC-TOURNAMENT-34-KAWREA-4-RENO-4",
+			"left": "KAWREA-4",
+			"right": "RENO-4",
+			"matchupNumber": 34,
+			"winner": "RENO-4",
+			"teamIndex": {
+			  "KAWREA-4": "KAWREA",
+			  "RENO-4": "RENO"
+			}
+		  },
+		  {
+			"_id": "M-SPEC-TOURNAMENT-35-KAWREA-5-RENO-5",
+			"left": "KAWREA-5",
+			"right": "RENO-5",
+			"matchupNumber": 35,
+			"winner": "RENO-5",
+			"teamIndex": {
+			  "KAWREA-5": "KAWREA",
+			  "RENO-5": "RENO"
+			}
+		  }
+		],
+		"winner": "KAWREA",
+		"loser": "RENO"
+	  }
+	]
+  }
